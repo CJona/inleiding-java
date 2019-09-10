@@ -3,7 +3,7 @@ package H05;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdr1 extends Applet {
+public class H05_1 extends Applet {
 
     int width;
     int height;

@@ -2,7 +2,7 @@ package H04;
 import java.awt.*;
 import java.applet.*;
 
-public class opdr5 extends Applet {
+public class H04_5 extends Applet {
 
     /**
      *

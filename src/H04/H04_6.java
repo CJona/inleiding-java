@@ -2,7 +2,7 @@ package H04;
 import java.awt.*;
 import java.applet.*;
 
-public class Opdr6 extends Applet {
+public class H04_6 extends Applet {
 
     public void init() {
         setBackground(Color.WHITE);

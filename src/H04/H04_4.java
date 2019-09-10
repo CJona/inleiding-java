@@ -1,32 +1,17 @@
-package H05;
-
-import com.sun.org.apache.xpath.internal.operations.Variable;
+package H04;
 
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdr2 extends Applet {
-    int valerie;
-    int hoogteXAs;
-
-
-
-
+public class H04_4 extends Applet {
 
     public void init() {
 
-        hoogteXAs = 210;
-        valerie = 40;
-
-
     }
-
-
-
     public void paint(Graphics g) {
         // Grafiek X & Y lijntjes
         g.drawLine(30, 10, 30, 210);
-        g.drawLine(30, hoogteXAs, 170, hoogteXAs);
+        g.drawLine(30, 210, 170, 210);
         // Indicatie waardes
         g.drawString("0", 20, 215);
         g.drawString("20", 13, 175);
@@ -36,7 +21,7 @@ public class Opdr2 extends Applet {
         g.drawString("100", 7, 15);
         // Valerie
         g.setColor(Color.blue);
-        g.fillRect(50, hoogteXAs - valerie, 20, 80);
+        g.fillRect(50, 130, 20, 80);
         g.drawString("Valerie", 40, 230);
         g.setColor(Color.black);
         g.drawRect(50, 130, 20, 80);
@@ -57,5 +42,3 @@ public class Opdr2 extends Applet {
     }
 
 }
-
-
