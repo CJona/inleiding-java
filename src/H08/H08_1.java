@@ -15,6 +15,7 @@ public class H08_1 extends Applet {
     public void init() {
         setBackground(Color.yellow);
         tekstvak = new TextField(20);
+        tekstvak.addActionListener(new KnopOKlistener());
         add(tekstvak);
 
         knopOK = new Button( "OK" );
@@ -30,6 +31,7 @@ public class H08_1 extends Applet {
 
     public void paint(Graphics g) {
         g.drawString(message, 20, 150);    }
+
     class KnopOKlistener implements ActionListener{
         public void actionPerformed(ActionEvent e) {
             message = tekstvak.getText();
@@ -40,7 +42,7 @@ public class H08_1 extends Applet {
     class KnopResetlistener implements ActionListener{
 
         public void actionPerformed(ActionEvent e) {
-        tekstvak.setText(" ");
+
         }
     }
 
