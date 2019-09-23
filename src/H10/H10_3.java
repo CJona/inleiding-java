@@ -28,7 +28,7 @@ public class H10_3 extends Applet {
     public void paint(Graphics g) {
         g.setFont(new Font("default", Font.BOLD, 14));
         g.setColor(Color.GREEN);
-        g.drawString("" + maandstring, 10, 50);
+        g.drawString("" + maandstring, 20, 50);
 
     }
 
