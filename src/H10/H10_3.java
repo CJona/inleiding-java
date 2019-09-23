@@ -16,6 +16,7 @@ public class H10_3 extends Applet {
 
     public void init() {
         setSize(250, 80);
+        setBackground(Color.black);
         input1 = new TextField("", 10);
         input1.addActionListener(new TextListener());
         Ok = new Button("Ok");
@@ -26,6 +27,7 @@ public class H10_3 extends Applet {
 
     public void paint(Graphics g) {
         g.setFont(new Font("default", Font.BOLD, 14));
+        g.setColor(Color.GREEN);
         g.drawString("" + maandstring, 10, 50);
 
     }
