@@ -13,7 +13,7 @@ public class H08_PR extends Applet {
     Button keer;
 
     public void init() {
-        setBackground(Color.GREEN);
+        setBackground(Color.yellow);
         setSize(400, 80);
 
         getal1 = new TextField("", 10);
