@@ -46,6 +46,7 @@ public class H10_PR  extends Applet {
                 case 8: s = "Een "+tempgetal+" is een Goed!"; break;
                 case 9: s = "Een "+tempgetal+" is een Goed!"; break;
                 case 10: s = "Een "+tempgetal+" is een Perfect!!!"; break;
+
                 default: s = "verkeerd Cijfer"; break;
             }
                 repaint();
