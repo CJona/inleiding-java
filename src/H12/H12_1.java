@@ -12,7 +12,6 @@ public class H12_1 extends Applet {
         setBackground(Color.GREEN);
     }
 
-    @Override
     public void paint(Graphics g) {
         for(int i = 0; i < getallen.length; i++) {
             g.setFont(new Font("default", Font.BOLD, 14));
