@@ -38,7 +38,7 @@ public class H12_4 extends Applet {
     }
     public void paint(Graphics g) {
         if(gevonden == true) {
-            g.drawString("De waarde is gevonden.", 20, 50);
+            g.drawString("De waarde is gevonden: "+ gevonden , 20, 50);
         }
         else {
             g.drawString("De waarde is niet gevonden.", 20, 50);

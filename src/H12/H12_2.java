@@ -8,7 +8,6 @@ public class H12_2 extends Applet {
 
 
     public void init() {
-        setBackground(Color.PINK);
 
         for (int i = 0; i < knop.length; i++) {
             knop[i] = new Button("knop " + (i + 1));
